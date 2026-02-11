@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { Star } from 'lucide-react';
 import SectionHeading from '../components/ui/SectionHeading';
@@ -59,11 +58,6 @@ export default function Testimonials() {
 
     return (
         <>
-            <Helmet>
-                <title>Team Members - Achievers Club</title>
-                <meta name="description" content="Meet the dedicated team behind Achievers Club who are committed to your success." />
-            </Helmet>
-
             {/* Hero */}
             <section className="section-container pt-32 pb-16 bg-gradient-to-b from-dark-lighter to-dark">
                 <motion.div

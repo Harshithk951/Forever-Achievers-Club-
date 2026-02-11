@@ -1,6 +1,5 @@
 import { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
 import Layout from './components/Layout';
 import LoadingSpinner from './components/ui/LoadingSpinner';
 
@@ -16,12 +15,6 @@ const Contact = lazy(() => import('./pages/Contact'));
 function App() {
   return (
     <Router>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#0a0a0f" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-      </Helmet>
 
       <Suspense fallback={<LoadingSpinner />}>
         <Routes>

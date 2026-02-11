@@ -1,6 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
 import { Target, Users, TrendingUp, Award, ArrowRight, Sparkles } from 'lucide-react';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
@@ -53,11 +52,6 @@ export default function Home() {
 
     return (
         <>
-            <Helmet>
-                <title>Achievers Club - Building Forever Achievers</title>
-                <meta name="description" content="Join an elite community of business leaders. Strategic growth, proven systems, and world-class mentorship for sustainable success." />
-            </Helmet>
-
             {/* Hero Section with Parallax */}
             <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-dark via-dark-lighter to-dark">
                 {/* Parallax Background Layers */}
