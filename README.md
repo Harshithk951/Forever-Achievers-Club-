@@ -1,6 +1,6 @@
 # 🚀 Achievers Club - Official Portfolio
 
-![Achievers Club Banner](public/images/branding/banner.png)
+![Achievers Club Banner](./public/images/branding/banner.png)
 
 > **Building Forever Achievers.**  
 > An elite community ecosystem for ambitious business leaders, featuring strategic frameworks, proven methodologies, and extensive networking opportunities.
