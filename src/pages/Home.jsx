@@ -206,7 +206,7 @@ export default function Home() {
             {/* Testimonials Preview */}
             <section className="section-container bg-dark-lighter">
                 <SectionHeading
-                    subtitle="Team Members"
+
                     title="What Leaders Say"
                 />
 
