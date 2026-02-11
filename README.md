@@ -1,6 +1,8 @@
 # 🚀 Achievers Club - Official Portfolio
 
-![Achievers Club Banner](https://github.com/Harshithk951/Forever-Achievers-Club-/blob/main/public/images/branding/banner.png?raw=true)
+<p align="center">
+  <img src="./public/images/branding/banner.png" alt="Achievers Club Banner" width="100%" />
+</p>
 
 > **Building Forever Achievers.**  
 > An elite community ecosystem for ambitious business leaders, featuring strategic frameworks, proven methodologies, and extensive networking opportunities.
