@@ -1,6 +1,6 @@
 # 🚀 Achievers Club - Official Portfolio
 
-![Achievers Club Banner](./public/images/branding/banner.png)
+![Achievers Club Banner](https://github.com/Harshithk951/Forever-Achievers-Club-/blob/main/public/images/branding/banner.png?raw=true)
 
 > **Building Forever Achievers.**  
 > An elite community ecosystem for ambitious business leaders, featuring strategic frameworks, proven methodologies, and extensive networking opportunities.
@@ -56,7 +56,7 @@ Follow these steps to set up the project locally:
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/achievers-club.git
+    git clone https://github.com/Harshithk951/Forever-Achievers-Club-.git
     cd achievers-club
     ```
 
