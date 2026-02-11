@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { Target, Heart, Users, TrendingUp, Shield, Lightbulb } from 'lucide-react';
 import SectionHeading from '../components/ui/SectionHeading';
@@ -33,11 +32,6 @@ export default function About() {
 
     return (
         <>
-            <Helmet>
-                <title>About Achievers Club - Our Mission & Vision</title>
-                <meta name="description" content="Discover the Achievers Club mission: building Forever Achievers through strategic business development, elite networking, and proven methodologies." />
-            </Helmet>
-
             {/* Hero */}
             <section className="section-container pt-32 pb-16 bg-gradient-to-b from-dark-lighter to-dark">
                 <motion.div

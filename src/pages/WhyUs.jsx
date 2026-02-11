@@ -43,11 +43,6 @@ export default function WhyUs() {
 
     return (
         <>
-            <Helmet>
-                <title>Why Choose Achievers Club - Strategic Advantages</title>
-                <meta name="description" content="Discover why Achievers Club is the premier choice for business excellence—transparency, proven mentorship, elite community, and measurable results." />
-            </Helmet>
-
             {/* Hero */}
             <section className="section-container pt-32 pb-16 bg-gradient-to-b from-dark-lighter to-dark">
                 <motion.div

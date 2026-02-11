@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { Briefcase, Network, GraduationCap, TrendingUp, Users, Shield, CheckCircle } from 'lucide-react';
 import SectionHeading from '../components/ui/SectionHeading';
@@ -39,11 +38,6 @@ export default function WhatWeDo() {
 
     return (
         <>
-            <Helmet>
-                <title>What We Do - Achievers Club</title>
-                <meta name="description" content="Discover how Achievers Club delivers strategic business growth through elite training, proven systems, and exclusive networking opportunities." />
-            </Helmet>
-
             {/* Hero */}
             <section className="section-container pt-32 pb-16 bg-gradient-to-b from-dark-lighter to-dark">
                 <motion.div

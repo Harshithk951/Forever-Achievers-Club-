@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { CheckCircle, ArrowRight, Shield, Users, TrendingUp } from 'lucide-react';
 import SectionHeading from '../components/ui/SectionHeading';
@@ -40,11 +39,6 @@ export default function Join() {
 
     return (
         <>
-            <Helmet>
-                <title>Join Achievers Club - Start Your Journey</title>
-                <meta name="description" content="Ready to become a Forever Achiever? Join Achievers Club today and gain access to elite training, strategic mentorship, and a powerful professional network." />
-            </Helmet>
-
             {/* Hero */}
             <section className="section-container pt-32 pb-16 bg-gradient-to-b from-dark-lighter to-dark">
                 <motion.div

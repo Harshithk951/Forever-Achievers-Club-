@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import SectionHeading from '../components/ui/SectionHeading';
 import Card from '../components/ui/Card';
@@ -32,11 +31,6 @@ export default function Contact() {
 
     return (
         <>
-            <Helmet>
-                <title>Contact Us - Achievers Club</title>
-                <meta name="description" content="Get in touch with Achievers Club. Visit our offices in Guntur, Hyderabad, or Mumbai. We're here to answer your questions and help you start your journey." />
-            </Helmet>
-
             {/* Hero */}
             <section className="section-container pt-32 pb-16 bg-gradient-to-b from-dark-lighter to-dark">
                 <motion.div
